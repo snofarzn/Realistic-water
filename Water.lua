@@ -2204,15 +2204,7 @@ Gerstner have a folder named serial contain boatmanager and setup and zone manag
 
 
 Client script that use the module
---!strict
---!native
---!optimize 2
-
 --[[
-	Gerstner Wave System
-	@FlameEmber06
-	
-	Special thanks to @N0tKep, @SkySickz, @NewPuncher and @excuseslewis
 	
 	Simulates an ocean system on a mesh plane, with Gerstner waves.
 	Uses Luau's parallel framework to run the ocean on multiple threads.
@@ -2956,6 +2948,7 @@ Actor:BindToMessage('Compute', function(waves, Plane: MeshPart, EditableMesh: Ed
 	end)
 
 end)
+
 
 
 
